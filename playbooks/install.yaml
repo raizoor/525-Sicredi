@@ -1,0 +1,6 @@
+- name: Instalar o Apache em Debian
+  hosts: all
+  apt:
+   name: apache2 
+   state: present 
+- name: Instalar o Apache em centOS   

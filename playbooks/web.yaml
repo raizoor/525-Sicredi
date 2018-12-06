@@ -1,0 +1,4 @@
+- name: criando meu apache
+  hosts: all
+  roles: 
+   - web

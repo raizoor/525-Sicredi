@@ -1,0 +1,5 @@
+- name: Fazer um teste para ver se um servico esta rodando. Caso nao, inicia
+  service:
+   name: "{{nome_servico}}"
+   state: started
+

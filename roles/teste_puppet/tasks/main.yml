@@ -1,0 +1,5 @@
+---
+# tasks file for teste_puppet
+
+- name: Fazer um teste para ver se existe um servico rodando
+  include: service.yaml

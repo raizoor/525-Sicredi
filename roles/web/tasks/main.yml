@@ -1,0 +1,10 @@
+---
+# tasks file for web
+- name: garantindo os pacotes
+  include: pacotes.yaml
+
+- name: garantindo os servicos
+  include: servicos.yaml
+
+- name: garantindo o site
+  include: site.yaml

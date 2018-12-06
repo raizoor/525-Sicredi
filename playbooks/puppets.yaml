@@ -1,0 +1,4 @@
+- name: Instalando repositorios e o puppets
+  hosts: all
+  roles:
+   - puppet

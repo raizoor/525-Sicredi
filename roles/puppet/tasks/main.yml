@@ -1,0 +1,10 @@
+---
+# tasks file for puppet
+- name: Instalar todos repositórios
+  include: reposit.yaml
+
+- name: Insere novo repositório do puppetserver
+  include: server.yaml
+
+- name: Insere novo repositório do puppet-agent
+  include: agent.yaml
